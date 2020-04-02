@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Samuel Salo</title>
+    <meta name="description" content="Oululainen 17-vuotias indie-pelinkehittäjä.">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+
+</head>
+
+<body id="page-top">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Samuel Salo</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"></li>
+                    <li class="nav-item mx-0 mx-lg-1" role="presentation"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">ota yhteyttä</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container">
+            <h1>Samuel Salo</h1>
+            <hr class="star-light">
+            <h2 class="font-weight-light mb-0">Oululainen 17-vuotias pelialan opiskelija.</h2>
+        </div>
+    </header>
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary">Portfolio</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-1">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/Splash.png"></a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-2">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/ssfm.png"></a>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <a class="d-block mx-auto portfolio-item" data-toggle="modal" href="#portfolio-modal-3">
+                        <div class="d-flex portfolio-item-caption position-absolute h-100 w-100">
+                            <div class="my-auto portfolio-item-caption-content w-100 text-center text-white"><i class="fa fa-search-plus fa-3x"></i></div>
+                        </div><img class="img-fluid" src="assets/img/Untitled-1.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2 class="text-uppercase text-center text-secondary mb-0">ota yhteyttä</h2>
+            <hr class="star-dark mb-5">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <form id="contactForm" name="sentMessage" method="post" role="form" action="contact.php">
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Name</label><input class="form-control" type="text" id="name" name="name" required="" placeholder="Nimi"><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Email Address</label><input class="form-control" type="email" id="email" name="email" required="" placeholder="Sähköposti"><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-0 pb-2"><label>Phone Number</label><input class="form-control" type="tel" id="phone" name="phone" required="" placeholder="Puhelinnumero"><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div class="control-group">
+                            <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" id="message" name="message" required="" placeholder="Viesti" rows="5"></textarea><small class="form-text text-danger help-block"></small></div>
+                        </div>
+                        <div id="success"></div>
+                        <div class="form-group"><button class="btn btn-primary btn-xl" id="sendMessageButton" type="submit">Lähetä</button></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">yhteystiedot</h4>
+                    <p>Sähköposti: samuel.j.salo@gmail.com Puhelinnumero:&nbsp;0452780744</p>
+                </div>
+                <div class="col-md-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase">muualla verkossa</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="http://github.com/SamuelSalo"><i class="fa fa-github fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="https://play.google.com/store/apps/developer?id=Samuel+Salo"><i class="fab fa-google-play fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a class="btn btn-outline-light btn-social text-center rounded-circle" role="button" href="http://samuel-salo.itch.io"><i class="fa fa-gamepad fa-fw"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright ©&nbsp;Samuel Salo 2020</small></div>
+    </div>
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-1">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">Valium</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/Splash.png" width="256" height="256">
+                                <p class="mb-5">Experimentaalinen , tunnelmallinen ja psykologinen kauhupeli.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://samuel-salo.itch.io/valium/"><i class="fas fa-gamepad"></i>&nbsp;Avaa Itch.io:ssa</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-2">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">STR4FE</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/ssfm.png">
+                                <p class="mb-5">Hyperkasuaali, helppo ja simppeli mobiilipeli.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"><a class="btn btn-primary btn-lg mx-auto rounded-pill portfolio-modal-dismiss" role="button" href="https://play.google.com/store/apps/details?id=com.theAcedia.str4fe"><i class="fas fa-play"></i>&nbsp;Avaa Gooogle Play:ssa</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal text-center" role="dialog" tabindex="-1" id="portfolio-modal-3">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
+                <div class="modal-body">
+                    <div class="container text-center">
+                        <div class="row">
+                            <div class="col-lg-8 mx-auto">
+                                <h2 class="text-uppercase text-secondary mb-0">H3X4G0N5</h2>
+                                <hr class="star-dark mb-5"><img class="img-fluid mb-5" src="assets/img/Untitled-1.png">
+                                <p class="mb-5">Kasuaali, vaativa ja nopea loputon mobiilipeli.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer pb-5"></div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/smoothscroll.js"></script>
+</body>
+
+</html>
